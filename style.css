@@ -1,0 +1,29 @@
+@font-face {
+    font-family: digital;
+    src: url(./digital/digital-7.regular.ttf);
+}
+
+.clock{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 15%;
+    width: 60%;
+    font-size: 150px;
+    padding: 2%;
+    font-family: digital;
+    border: 5px solid yellow;
+    border-radius: 10px 10px;
+    letter-spacing: 0.03em;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6de5G_fnB4tcAsrxfqKMStpXUwnyRElGSAw&usqp=CAU);
+    background-size: cover;
+}
+
+body{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjOirHStfuYRoG3Eqa6PqLMIPoUh7UIMJ9uQ&usqp=CAU);
+    background-size: cover;
+    
+}
